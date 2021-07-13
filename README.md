@@ -12,13 +12,27 @@ This porjects is about making a website where to can put plans about any trips y
 
 https://whimsical.com/RurYq7ET6d7p8hgFUuwrpR
 
-![imageAlt](https://user-images.githubusercontent.com/38265711/125470999-96ba8156-428d-4000-91ce-0aa9f60d5c1a.png)
+![imageAlt](https://user-images.githubusercontent.com/38265711/125484934-6c8cf320-8bc7-4cc4-9b7e-97bf56586fe9.png)
+
+
+![imageAlt](https://user-images.githubusercontent.com/38265711/125482189-6df0f8de-828e-452c-b5c4-243db6733e5f.png)
+
+![imageAlt](https://user-images.githubusercontent.com/38265711/125482444-4fa31c07-290d-407c-83fd-c701012b0e71.png)
+
+![imageAlt](https://user-images.githubusercontent.com/38265711/125482718-2001d757-f9d7-4dad-9b23-f2e72408dd54.png)
+
+![imageAlt](https://user-images.githubusercontent.com/38265711/125484749-bdb9661b-5a85-4f51-8bdd-4ffff25e8ef0.png)
+
+
+
+
 
 ## Component Hierarchy
 
 https://whimsical.com/vacation-planner-479iPpaQej8CEH2xgTTGbY
 
-![imageAlt](https://user-images.githubusercontent.com/38265711/125471414-d9d50b99-d8ac-4deb-a067-2493a050fe00.png)
+![imageAlt](https://user-images.githubusercontent.com/38265711/125485080-be1315a1-fbaf-4095-95a8-40cf8cfd9798.png)
+
 
 ## API and Data Sample
 
