@@ -13,11 +13,16 @@ This porjects is about making a website where to can put plans about any trips y
 
 https://whimsical.com/RurYq7ET6d7p8hgFUuwrpR
 
+![imageAlt](https://user-images.githubusercontent.com/38265711/125470999-96ba8156-428d-4000-91ce-0aa9f60d5c1a.png)
+
+
 
 ## Component Hierarchy
 https://whimsical.com/vacation-planner-479iPpaQej8CEH2xgTTGbY
 
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/479iPpaQej8CEH2xgTTGbY"></iframe>
+![imageAlt](https://user-images.githubusercontent.com/38265711/125471414-d9d50b99-d8ac-4deb-a067-2493a050fe00.png)
+
+
 
 ## API and Data Sample
 
