@@ -50,7 +50,6 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 
 _These are examples only. Replace with your own MVP features._
 
-- Find and use external api for vaction locations
 - add airtable api
 - Render data on page
 - structure accordingly
@@ -61,6 +60,7 @@ _These are examples only. Replace with your own MVP features._
 
 _These are examples only. Replace with your own Post-MVP features._
 
+- Find and use external api for vaction locations
 - style css for better visual
 - add rank page for vacation plans
 - Use local storage to save user favorites
