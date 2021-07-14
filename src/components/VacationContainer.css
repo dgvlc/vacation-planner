@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.description {
+  margin: 20%;
+  padding: 100px;
+  size: 20px;
+}
+
+.image {
+  size: 10px;
+}

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { BASE_URL, headers } from "../services"
 import axios from "axios"
+import VacationContainer from './VacationContainer'
 
 export default function VacationPlace() {
   const [vacations, setVacations] = useState([])
@@ -18,7 +19,7 @@ export default function VacationPlace() {
   return (
     <div>
       {vacations.map((vacation) => {
-        return <div>{vacation.fields.name}</div>
+        return <VacationContainer vacation={vacation} />
       }) }
     </div>
   )
