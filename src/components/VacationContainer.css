@@ -9,5 +9,9 @@
 }
 
 .image {
-  size: 10px;
+  display: inline-flex;
+  height: auto;
+  width: 400px;
+  max-width: 300px;
+  size: contain;
 }

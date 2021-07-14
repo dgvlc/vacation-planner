@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="nav">
       <Link to="/">
         <h2>homepage</h2>
       </Link>
