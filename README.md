@@ -38,7 +38,40 @@ https://whimsical.com/vacation-planner-479iPpaQej8CEH2xgTTGbY
 
 Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This **must** be properly formatted. An example is below:
 
-```
+```{
+    "records": [
+        {
+            "id": "rechLA1NXgQLYhvMb",
+            "fields": {
+                "activities ": "swimming and eating",
+                "image": "https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F201230100452-10-2021-t...",
+                "daysOfStay": 7,
+                "season": "summer",
+                "name": "fun and relax",
+                "currency": 3000,
+                "numberOfPeople": 2,
+                "rating ": 5,
+                "location": "hawaii "
+            },
+            "createdTime": "2021-07-13T19:13:03.000Z"
+        },
+        {
+            "id": "rectvQfy3InVqR5hd",
+            "fields": {
+                "activities ": "freezing and penguins",
+                "image": "https://global.hurtigruten.com/globalassets/global/destinations/antarctica/2223/amant2223-highlights-of-antarctica/images/top_pingvin-antarktisgetty_2...",
+                "daysOfStay": 20,
+                "season": "winter",
+                "name": "trip of a lifetime",
+                "currency": 1,
+                "numberOfPeople": 1,
+                "rating ": 1,
+                "location": "Antartica "
+            },
+            "createdTime": "2021-07-13T19:13:03.000Z"
+        }
+    ]
+}
 
 ```
 
