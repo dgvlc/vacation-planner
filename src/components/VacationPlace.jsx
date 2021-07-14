@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Base_URL, headers } from "../services"
+import { BASE_URL, headers } from "../services"
 import axios from "axios"
 
 export default function VacationPlace() {
@@ -17,7 +17,9 @@ export default function VacationPlace() {
 
   return (
     <div>
-      
+      {vacations.map((vacation) => {
+        return <div>{vacation.fields.name}</div>
+      }) }
     </div>
   )
 }
