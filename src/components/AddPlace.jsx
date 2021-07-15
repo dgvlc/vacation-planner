@@ -11,7 +11,7 @@ const defaultForm = {
   activities: "",
   season: "",
   numberOfPeople: 0,
-  rating: "",
+  rating: 0,
   image: "",
 
 }
@@ -55,14 +55,14 @@ export default function AddPlace() {
         <label>budget</label>
         <input
           name="currency"
-          value={input.currency}
+          value={input.currency.valueAsNumber}
           onChange={handleChange}
           placeholder="budget"
         />
         <label>Stay Period</label>
         <input
           name="daysOfStay"
-          value={input.daysOfStay}
+          value={input.daysOfStay.valueAsNumber}
           onChange={handleChange}
           placeholder="Stay Period"
         />
@@ -83,11 +83,11 @@ export default function AddPlace() {
         <label>Number of people in the trip</label>
         <input
           name="numberOfPeople"
-          value={input.numberOfPeople}
+          value={input.numberOfPeople.valueAsNumber}
           onChange={handleChange}
           placeholder="Number of People"
         />
-        <label>rate?</label>
+        <label>rate your experience from 1 - 5</label>
         <input
           name="rating"
           value={input.rating}

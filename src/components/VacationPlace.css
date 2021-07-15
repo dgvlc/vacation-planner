@@ -1,0 +1,13 @@
+.box {
+  display: grid;
+}
+
+.add-box {
+  display: inline-flex;
+  height: 200px;
+  width: 50%;
+  max-width: 100%;
+  padding: 200px;
+  border-style: solid;
+  border-radius: 20px;
+}

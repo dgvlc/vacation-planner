@@ -3,6 +3,7 @@ import { BASE_URL, headers } from "../services"
 import axios from "axios"
 import VacationContainer from './VacationContainer'
 import { Link } from 'react-router-dom'
+import "./VacationPlace"
 
 export default function VacationPlace() {
   const [vacations, setVacations] = useState([])
@@ -18,15 +19,13 @@ export default function VacationPlace() {
   }, [])
 
   return (
-    <div>
+    <div className="box">
       {vacations.map((vacation) => {
         return <VacationContainer vacation={vacation} />
       })}
-      <div>
+      <div className="add-box">
         <Link to="/new-trip">
-          <div className="add-box">
             <h1>add a new trip</h1>
-        </div>
         </Link>
       </div>
     </div>

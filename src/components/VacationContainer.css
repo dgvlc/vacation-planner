@@ -3,15 +3,16 @@
   grid-template-columns: 1fr;
 }
 .description {
-  margin: 20%;
-  padding: 100px;
+  margin: 10%;
+  padding: 50px;
   size: 20px;
 }
 
 .image {
   display: inline-flex;
   height: auto;
-  width: 400px;
-  max-width: 300px;
-  size: contain;
+  width: 20%;
+  max-width: 100%;
+  border-style: ridge;
+  border-radius: 20px;
 }

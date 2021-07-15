@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import VacationPlaceDetail from "./components/VacationPlaceDetail";
 import AddPlace from "./components/AddPlace";
+import SeasonSort from "./components/SeasonSort";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </Route>
       <Route path="/new-trip">
         <AddPlace/>
+      </Route>
+      <Route path to="/vacations-by-seasons">
+        <SeasonSort />
       </Route>
     </div>
   );
