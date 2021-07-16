@@ -6,7 +6,7 @@ export default function VacationContainer(props) {
   const {vacation} = props 
   return (
     <div className="container">
-      <h1>{vacation.fields.name}</h1>
+      <h1 className="title">{vacation.fields.name}</h1>
       <div className="image-container">
       <Link to={`/vacations/${vacation.id}`}>
           <img className="image" src={vacation.fields.image} alt={vacation.fields.name}/>

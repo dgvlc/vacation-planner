@@ -3,7 +3,7 @@ import { BASE_URL, headers } from "../services"
 import axios from "axios"
 import VacationContainer from './VacationContainer'
 import { Link } from 'react-router-dom'
-import "./VacationPlace"
+import "./VacationPlace.css"
 
 export default function VacationPlace() {
   const [vacations, setVacations] = useState([])

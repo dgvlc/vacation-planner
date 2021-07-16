@@ -3,19 +3,25 @@
   grid-template-columns: 1fr;
 }
 .description {
-  display: inline-flex;
-  background-color: cadetblue;
+  display: grid;
+  background-color: #4f99ce;
   margin: 20px;
   padding: 60px;
   width: 50%;
   right: 50%;
+  border-radius: 20px;
+  text-align: start;
 }
 
 .image {
-  display: inline-flex;
+  display: grid;
   height: auto;
   width: 70%;
   max-width: 100%;
   border-style: ridge;
   border-radius: 20px;
+}
+.title {
+  text-transform: capitalize;
+  color: brown;
 }
