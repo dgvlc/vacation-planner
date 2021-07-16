@@ -19,7 +19,7 @@ function App() {
       <Route path="/new-trip">
         <AddPlace/>
       </Route>
-      <Route path to="/vacations-by-seasons">
+      <Route path="/season-sort">
         <SeasonSort />
       </Route>
     </div>

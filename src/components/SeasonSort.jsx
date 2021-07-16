@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 import { SORT_URL, headers } from "../services"
-import VacationContainer from "./VacationContainer"
+import VacationSortContainer from "./VacationContainer"
 
 export default function SeasonFilter() {
   const [sortedSeasonTrip, setSortedSeasonTrip] = useState([])
@@ -26,9 +26,13 @@ export default function SeasonFilter() {
 
   return (
     <div>
-      <h1>sorted list</h1>
       {vacations.map((vacation) => {
-        return <VacationContainer vacation={vacation}/>
+        return (
+          <div>
+            <h1>{vacation.fields.season}</h1>
+          <VacationSortContainer key={vacation.id} vacation={vacation} />
+          </div>
+        )
       })}
     </div>
   )

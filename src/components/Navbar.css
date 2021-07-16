@@ -1,11 +1,20 @@
 .nav {
-  display: grid;
-  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: darkgray;
 }
 
 .homepage-link {
+  display: flex;
+  background-color: darkgreen;
 }
 .top-link {
+  display: grid;
+  background-color: darkgoldenrod;
 }
 .season-link {
+  display: grid;
+  border-radius: 20px;
+  background-color: darkred;
 }

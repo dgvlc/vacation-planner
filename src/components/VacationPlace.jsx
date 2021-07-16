@@ -21,7 +21,7 @@ export default function VacationPlace() {
   return (
     <div className="box">
       {vacations.map((vacation) => {
-        return <VacationContainer vacation={vacation} />
+        return <VacationContainer key={vacation.id} vacation={vacation} />
       })}
       <div className="add-box">
         <Link to="/new-trip">

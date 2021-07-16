@@ -9,10 +9,12 @@ export default function VacationContainer(props) {
       <h1>{vacation.fields.name}</h1>
       <div className="image-container">
       <Link to={`/vacations/${vacation.id}`}>
-        <img className="image" src={vacation.fields.image} />
+          <img className="image" src={vacation.fields.image} alt={vacation.fields.name}/>
         </Link>
       </div>
-        <p className="description">{vacation.fields.activities}</p>
+      <div className="description">
+        <p>{vacation.fields.activities}</p>
+      </div>
     </div>
   )
 }

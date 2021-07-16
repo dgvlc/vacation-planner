@@ -16,6 +16,7 @@ const defaultForm = {
 
 }
 
+
 export default function AddPlace() {
   const [input, setInput] = useState(defaultForm)
   const history = useHistory()
@@ -90,7 +91,7 @@ export default function AddPlace() {
         <label>rate your experience from 1 - 5</label>
         <input
           name="rating"
-          value={input.rating}
+          value={input.rating.valueAsNumber}
           onChange={handleChange}
           placeholder="Rating"
         />
