@@ -23,15 +23,28 @@ export default function AddPlace() {
   
   const handleChange = (e) => {
     const { name, value } = e.target
-    
+
     setInput((prevInput) => ({
-      ...prevInput,
-      [name]: value,
-    }))
+        ...prevInput,
+        [name]: value,
+      }))
   }
+  
   const handleSubmit = async (e) => {
     e.preventDefault()
-    const response = await axios.post(BASE_URL, { fields: input }, { headers })
+    const response = await axios.post(BASE_URL, {
+      fields: {
+        name:input.name,
+        location: input.location,
+        currency: parseInt(input.currency),
+        daysOfStay: parseInt(input.daysOfStay),
+        activities: input.activities,
+        season: input.season,
+        numberOfPeople: parseInt(input.numberOfPeople),
+        rating: parseInt(input.rating),
+        image: input.image,
+      
+    } }, { headers })
     console.log(response)
     history.push("/")
   }
@@ -56,7 +69,7 @@ export default function AddPlace() {
         <label>budget</label>
         <input
           name="currency"
-          value={input.currency.valueAsNumber}
+          value={input.currency}
           onChange={handleChange}
           placeholder="budget"
         />

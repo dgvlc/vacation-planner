@@ -1,0 +1,8 @@
+.image {
+}
+
+.detail-desc-box {
+  display: grid;
+  height: 200px;
+  background-color: brown;
+}

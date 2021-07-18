@@ -20,12 +20,13 @@ export default function VacationPlace() {
 
   return (
     <div className="box">
+      <div>Vacation Planner</div>
       {vacations.map((vacation) => {
         return <VacationContainer key={vacation.id} vacation={vacation} />
       })}
       <div className="add-box">
-        <Link to="/new-trip">
-            <h1>add a new trip</h1>
+        <Link className="add-link" to="/new-trip">
+            <h1 className="add-text">add a new trip</h1>
         </Link>
       </div>
     </div>

@@ -1,27 +1,30 @@
 .container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  width: 70%;
+  margin: 30px;
 }
 .description {
   display: grid;
   background-color: #4f99ce;
-  margin: 20px;
-  padding: 60px;
+  padding: 20px;
   width: 50%;
-  right: 50%;
-  border-radius: 20px;
+  height: auto;
   text-align: start;
 }
 
 .image {
   display: grid;
-  height: auto;
-  width: 70%;
-  max-width: 100%;
+  height: 300px;
+  width: 400px;
   border-style: ridge;
-  border-radius: 20px;
+}
+
+.title-box {
+  display: grid;
+  width: 300px;
 }
 .title {
   text-transform: capitalize;
+  padding: 10px;
   color: brown;
 }

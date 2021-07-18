@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router'
 import { BASE_URL, headers } from "../services"
 import axios from "axios"
+import "./VacationPlaceDetail.css"
 
 export default function VacationPlaceDetail() {
   const [vacation, setVacation] = useState({})
@@ -20,8 +21,20 @@ export default function VacationPlaceDetail() {
   }, [id])
   
   return (
-    <div>
+    <div className="detail-body">
+      <div>
       {vacation.fields?.name}
+      </div>
+      <div>
+      {vacation.fields?.rating}
+      </div>
+      <div>
+      <img className="image" src={vacation.fields?.image} alt={vacation.fields?.name}/>
+      </div>
+      <div className="detail-desc-box">
+      <p>{vacation.fields?.activities}</p> 
+      </div>
+
     </div>
   )
 }

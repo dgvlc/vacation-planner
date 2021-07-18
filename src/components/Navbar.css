@@ -1,20 +1,26 @@
+h2 {
+  color: rgb(14, 95, 95);
+  text-emphasis: none;
+}
+
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  color: darkgray;
+  justify-content: space-evenly;
+  background-color: #1a1e23;
+  height: 80px;
 }
 
 .homepage-link {
-  display: flex;
-  background-color: darkgreen;
+  text-decoration: none;
+  padding: 14px 25px;
 }
 .top-link {
-  display: grid;
-  background-color: darkgoldenrod;
+  text-decoration: none;
+  padding: 14px 25px;
 }
 .season-link {
-  display: grid;
-  border-radius: 20px;
-  background-color: darkred;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 25px;
 }

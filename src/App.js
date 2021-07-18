@@ -4,8 +4,9 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import VacationPlaceDetail from "./components/VacationPlaceDetail";
 import AddPlace from "./components/AddPlace";
-import SeasonSort from "./components/SeasonSort";
 import TopPlaces from "./components/TopPlaces";
+import SeasonSort from "./components/SeasonSort";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Route path="/top-places">
         <TopPlaces />
       </Route>
+      <Footer/>
     </div>
   );
 }

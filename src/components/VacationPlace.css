@@ -2,12 +2,18 @@
   display: grid;
 }
 
+.add-link {
+  text-align: center;
+  margin-top: 30%;
+  text-decoration: none;
+}
+
 .add-box {
-  display: inline-flex;
-  height: 200px;
-  width: 50%;
+  display: grid;
+  height: 300px;
+  width: 400px;
   max-width: 100%;
-  padding: 200px;
-  border-style: solid;
-  border-radius: 20px;
+  border-style: ridge;
+  position: relative;
+  left: 30%;
 }
