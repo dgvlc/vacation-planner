@@ -6,6 +6,7 @@
   text-align: center;
   margin-top: 30%;
   text-decoration: none;
+  color: aliceblue;
 }
 
 .add-box {
@@ -13,7 +14,20 @@
   height: 300px;
   width: 400px;
   max-width: 100%;
-  border-style: ridge;
+  border: 2px solid;
   position: relative;
   left: 30%;
+}
+@media screen and (max-width: 600px) {
+  .add-box {
+    left: 5%;
+  }
+}
+
+.homepage-title {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  margin: 30px;
+  font-size: 40px;
 }

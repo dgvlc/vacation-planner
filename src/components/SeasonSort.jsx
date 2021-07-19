@@ -2,6 +2,8 @@ import { useState, useEffect } from "react"
 import axios from "axios"
 import { SORT_URL, headers } from "../services"
 import VacationContainer from "./VacationContainer"
+import "./SeasonSort.css"
+
 
 export default function SeasonFilter() {
   
@@ -25,8 +27,9 @@ export default function SeasonFilter() {
       {vacations.map((vacation) => {
         return (
           <div>
-        
-            {vacation.fields.season}
+            <div className="season-text">
+              {vacation.fields.season}
+            </div>
           <VacationContainer key={vacation.id} vacation={vacation} />
           </div>
         )

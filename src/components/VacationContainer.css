@@ -5,18 +5,20 @@
 }
 .description {
   display: grid;
-  background-color: #4f99ce;
+  background-color: #86b3d1;
   padding: 20px;
   width: 50%;
   height: auto;
   text-align: start;
+  font-family: "Cinsel", serif;
+  border: 2px solid white;
 }
 
 .image {
   display: grid;
   height: 300px;
   width: 400px;
-  border-style: ridge;
+  border: 2px solid #333;
 }
 
 .title-box {
@@ -25,6 +27,15 @@
 }
 .title {
   text-transform: capitalize;
+  font-family: "Cinsel", serif;
   padding: 10px;
-  color: brown;
+  color: #25274d;
+}
+@media screen and (max-width: 600px) {
+  .description {
+    display: none;
+  }
+  .title-box {
+    display: none;
+  }
 }

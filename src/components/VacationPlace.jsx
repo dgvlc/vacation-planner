@@ -20,7 +20,7 @@ export default function VacationPlace() {
 
   return (
     <div className="box">
-      <div>Vacation Planner</div>
+      <div className="homepage-title">Vacation Planner</div>
       {vacations.map((vacation) => {
         return <VacationContainer key={vacation.id} vacation={vacation} />
       })}

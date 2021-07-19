@@ -1,0 +1,9 @@
+.season-text {
+  margin: 40px;
+  width: 100px;
+  text-align: center;
+  padding: 20px;
+  background-color: #8e8d8a;
+  color: #feffff;
+  border: 2px solid black;
+}

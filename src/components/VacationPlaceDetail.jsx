@@ -27,7 +27,7 @@ export default function VacationPlaceDetail() {
       {vacation.fields?.name}
       </div>
       <div className="rating">
-      Rank# {vacation.fields?.rating}
+      <h1 className="rank-text">1-5 Rank# </h1>{vacation.fields?.rating}
         </div>
       </div>
       <div className="middle-div">
@@ -45,18 +45,15 @@ export default function VacationPlaceDetail() {
         <div className="currency">
       Budget for the trip: {vacation.fields?.currency}
         </div>
-        <div className="bottom-row">
         <div className="stay">
       Number of days in vacation: {vacation.fields?.daysOfStay}
         </div>
-        
         <div className="season">
       Season: {vacation.fields?.season}
         </div>
         <div className="num-of-people">
       Number of people in vacation: {vacation.fields?.numberOfPeople}
           </div>
-        </div>
       </div>
     </div>
   )

@@ -1,32 +1,40 @@
 .detail-body {
   display: grid;
+  width: 100%;
 }
 .top-div {
   display: flex;
+  margin: 50px 0 50px 100px;
 }
 
 .middle-div {
   display: flex;
+  margin-left: 200px;
 }
 
 .bottom-div {
   display: grid;
+  margin: 100px 0 0 200px;
+  grid-template-columns: 300px 300px 300px;
 }
 
-.bottom-row {
-  display: grid;
-}
 .title {
   margin: 20px;
   font-size: 25px;
 }
 
+.rank-text {
+  font-size: 25px;
+  font-family: "Cinsel", serif;
+  color: #25274d;
+}
 .rating {
   font-size: 25px;
   margin: 20px;
   margin-left: 500px;
   padding: 10px;
   text-align: center;
+  color: #25274d;
 }
 
 .detail-desc-box {
@@ -34,11 +42,36 @@
   height: auto;
   padding: 20px;
   width: 40%;
-  background-color: brown;
+  background-color: #86b3d1;
+  font-size: 25px;
+  color: #25274d;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 600px) {
+  .detail-desc-box {
+    display: none;
+  }
+
+  .top-div,
+  .bottom-div {
+    margin: 0;
+    grid-template-columns: 0;
+  }
+
+  .middle-div {
+    margin: 20px;
+  }
+
+  .rating {
+    margin-left: 100px;
+  }
 }
 
 .location {
-  background-color: aqua;
+  background-color: #05386b;
+  color: aliceblue;
+  border: 2px solid snow;
   width: 200px;
   margin: 20px;
   padding-top: 20px;
@@ -47,7 +80,9 @@
 }
 
 .currency {
-  background-color: aqua;
+  background-color: #05386b;
+  color: aliceblue;
+  border: 2px solid snow;
   width: 200px;
   margin: 20px;
   padding-top: 20px;
@@ -56,7 +91,9 @@
 }
 
 .stay {
-  background-color: aqua;
+  background-color: #05386b;
+  color: aliceblue;
+  border: 2px solid snow;
   width: 200px;
   margin: 20px;
   padding-top: 20px;
@@ -65,7 +102,9 @@
 }
 
 .season {
-  background-color: aqua;
+  background-color: #05386b;
+  color: aliceblue;
+  border: 2px solid snow;
   width: 200px;
   margin: 20px;
   padding-top: 20px;
@@ -74,7 +113,9 @@
 }
 
 .num-of-people {
-  background-color: aqua;
+  background-color: #05386b;
+  color: aliceblue;
+  border: 2px solid snow;
   width: 200px;
   margin: 20px;
   padding-top: 20px;
