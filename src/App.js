@@ -1,6 +1,6 @@
 import { Route } from "react-router-dom"
 import VacationPlace from "./components/VacationPlace"
-import './App.css';
+import "./App.css";
 import Navbar from "./components/Navbar";
 import VacationPlaceDetail from "./components/VacationPlaceDetail";
 import AddPlace from "./components/AddPlace";

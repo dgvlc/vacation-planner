@@ -25,7 +25,8 @@ export default function SeasonFilter() {
       {vacations.map((vacation) => {
         return (
           <div>
-            <div>{vacation.fields.season}</div>
+        
+            {vacation.fields.season}
           <VacationContainer key={vacation.id} vacation={vacation} />
           </div>
         )

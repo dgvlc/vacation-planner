@@ -2,6 +2,7 @@ import { useState } from "react"
 import axios from "axios"
 import { BASE_URL, headers } from "../services"
 import { useHistory } from "react-router"
+import "./AddPlace.css"
 
 const defaultForm = {
   name: "",
@@ -49,7 +50,7 @@ export default function AddPlace() {
     history.push("/")
   }
   return (
-    <div>
+    <div className="add-page">
       <h1>Add your Trip!</h1>
       <form onSubmit={handleSubmit}>
         <label>Put a cool title to your trip!</label>
@@ -117,7 +118,6 @@ export default function AddPlace() {
         />
         <button>Add Trip</button>
       </form>
-      
     </div>
   )
 }

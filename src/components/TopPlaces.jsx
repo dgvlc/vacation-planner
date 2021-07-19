@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { TOP_URL, headers } from '../services'
 import VacationContainer from './VacationContainer'
+import "./TopPlaces.css"
 
 
 export default function TopPlaces() {
@@ -19,7 +20,7 @@ export default function TopPlaces() {
   }, [])
 
   return (
-    <div>
+    <div className="top-page">
       {topVacations.map((vacation) => {
         return <VacationContainer key={vacation.id} vacation={vacation} />
       })}

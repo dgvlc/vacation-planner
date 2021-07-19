@@ -22,19 +22,42 @@ export default function VacationPlaceDetail() {
   
   return (
     <div className="detail-body">
-      <div>
+      <div className="top-div">
+      <div className="title">
       {vacation.fields?.name}
       </div>
-      <div>
-      {vacation.fields?.rating}
+      <div className="rating">
+      Rank# {vacation.fields?.rating}
+        </div>
       </div>
-      <div>
-      <img className="image" src={vacation.fields?.image} alt={vacation.fields?.name}/>
+      <div className="middle-div">
+        <div>
+        <img className="image" src={vacation.fields?.image} alt={vacation.fields?.name}/>
+        </div>
+        <div className="detail-desc-box">
+        <p>{vacation.fields?.activities}</p> 
+        </div>
       </div>
-      <div className="detail-desc-box">
-      <p>{vacation.fields?.activities}</p> 
+      <div className="bottom-div">
+        <div className="location">
+      Location: {vacation.fields?.location}
+        </div>
+        <div className="currency">
+      Budget for the trip: {vacation.fields?.currency}
+        </div>
+        <div className="bottom-row">
+        <div className="stay">
+      Number of days in vacation: {vacation.fields?.daysOfStay}
+        </div>
+        
+        <div className="season">
+      Season: {vacation.fields?.season}
+        </div>
+        <div className="num-of-people">
+      Number of people in vacation: {vacation.fields?.numberOfPeople}
+          </div>
+        </div>
       </div>
-
     </div>
   )
 }

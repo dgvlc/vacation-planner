@@ -1,7 +1,4 @@
 .App {
-  height: 100%;
-  width: 100vw;
-  background-color: #4455ab;
+  background-color: hsl(230, 43%, 47%);
   height: auto;
-  width: 100%;
 }
