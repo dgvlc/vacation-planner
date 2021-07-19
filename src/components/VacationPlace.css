@@ -23,6 +23,9 @@
     left: 5%;
   }
 }
+.add-text {
+  text-align: center;
+}
 
 .homepage-title {
   display: grid;
