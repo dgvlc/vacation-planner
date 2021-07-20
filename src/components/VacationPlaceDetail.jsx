@@ -31,9 +31,7 @@ export default function VacationPlaceDetail() {
         </div>
       </div>
       <div className="middle-div">
-        <div>
         <img className="image" src={vacation.fields?.image} alt={vacation.fields?.name}/>
-        </div>
         <div className="detail-desc-box">
         <p>{vacation.fields?.activities}</p> 
         </div>

@@ -1,17 +1,20 @@
 .container {
   display: flex;
-  width: 70%;
+  width: 80%;
   margin: 30px;
 }
 .description {
   display: grid;
   background-color: #86b3d1;
   padding: 20px;
-  width: 50%;
+  width: 30%;
   height: auto;
   text-align: start;
   font-family: "Cinsel", serif;
+  font-size: 25px;
   border: 2px solid white;
+}
+@keyframes bg {
 }
 
 .image {

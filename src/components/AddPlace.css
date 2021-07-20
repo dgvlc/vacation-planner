@@ -12,6 +12,7 @@ button {
   background-color: #2d4159;
   height: 40px;
   color: #f0ebf4;
+  cursor: pointer;
 }
 .add-page {
   height: 100vh;

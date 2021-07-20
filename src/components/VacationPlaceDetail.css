@@ -1,20 +1,22 @@
 .detail-body {
   display: grid;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
 }
 .top-div {
   display: flex;
-  margin: 50px 0 50px 100px;
+  margin: 50px 0 50px 200px;
 }
 
 .middle-div {
   display: flex;
-  margin-left: 200px;
+  margin-left: 300px;
 }
 
 .bottom-div {
   display: grid;
-  margin: 100px 0 0 200px;
+  margin: 100px 0 0 300px;
   grid-template-columns: 300px 300px 300px;
 }
 
@@ -27,6 +29,7 @@
   font-size: 25px;
   font-family: "Cinsel", serif;
   color: #25274d;
+  margin-top: 0;
 }
 .rating {
   font-size: 25px;
@@ -37,11 +40,15 @@
   color: #25274d;
 }
 
+.image {
+  height: auto;
+}
+
 .detail-desc-box {
   display: grid;
   height: auto;
   padding: 20px;
-  width: 40%;
+  width: 30%;
   background-color: #86b3d1;
   font-size: 25px;
   color: #25274d;
@@ -72,18 +79,18 @@
   background-color: #05386b;
   color: aliceblue;
   border: 2px solid snow;
-  width: 200px;
+  width: 250px;
   margin: 20px;
   padding-top: 20px;
   text-align: center;
-  height: 40px;
+  height: 50px;
 }
 
 .currency {
   background-color: #05386b;
   color: aliceblue;
   border: 2px solid snow;
-  width: 200px;
+  width: 250px;
   margin: 20px;
   padding-top: 20px;
   text-align: center;
@@ -94,7 +101,7 @@
   background-color: #05386b;
   color: aliceblue;
   border: 2px solid snow;
-  width: 200px;
+  width: 250px;
   margin: 20px;
   padding-top: 20px;
   text-align: center;
@@ -105,20 +112,20 @@
   background-color: #05386b;
   color: aliceblue;
   border: 2px solid snow;
-  width: 200px;
+  width: 250px;
   margin: 20px;
   padding-top: 20px;
   text-align: center;
-  height: 40px;
+  height: 50px;
 }
 
 .num-of-people {
   background-color: #05386b;
   color: aliceblue;
   border: 2px solid snow;
-  width: 200px;
+  width: 250px;
   margin: 20px;
   padding-top: 20px;
   text-align: center;
-  height: 60px;
+  height: 50px;
 }
