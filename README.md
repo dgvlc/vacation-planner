@@ -31,7 +31,7 @@ https://whimsical.com/RurYq7ET6d7p8hgFUuwrpR
 
 https://whimsical.com/vacation-planner-479iPpaQej8CEH2xgTTGbY
 
-![imageAlt](https://user-images.githubusercontent.com/38265711/125485080-be1315a1-fbaf-4095-95a8-40cf8cfd9798.png)
+![imageAlt](https://user-images.githubusercontent.com/38265711/126333183-8ccec557-2647-4a2a-8da8-ba7a21d77186.png)
 
 
 ## API and Data Sample
@@ -104,12 +104,12 @@ This schedule will be used to keep track of your progress throughout the week an
 
 | Day        | Deliverable                                  | Status     |
 | ---------- | -------------------------------------------- | ---------- |
-| July 10-12 | Prompt / Wireframes / Timeframes             | Incomplete |
-| July 13    | Project Approval                             | Incomplete |
-| July 13    | Core Application Structure (HTML, CSS, etc.) | Incomplete |
-| July 14    | Pseudocode / actual code                     | Incomplete |
-| July 15    | Initial Clickable Model                      | Incomplete |
-| July 16    | MVP                                          | Incomplete |
+| July 10-12 | Prompt / Wireframes / Timeframes             | complete |
+| July 13    | Project Approval                             | complete |
+| July 13    | Core Application Structure (HTML, CSS, etc.) | complete |
+| July 14    | Pseudocode / actual code                     | complete |
+| July 15    | Initial Clickable Model                      | complete |
+| July 16    | MVP                                          | complete |
 | July 20    | Presentations                                | Incomplete |
 
 ## Timeframes
@@ -120,24 +120,26 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| creating frame            |    H     |      3hrs      |    3.5hrs     |    0hrs     |
-| Adding API vacation areas |    H     |      3hrs      |    3.5hrs     |    0hrs     |
-| Adding airtable api       |    H     |      3hrs      |    3.5hrs     |    0hrs     |
-| basic css                 |    H     |      3hrs      |    3.5hrs     |    0hrs     |
-| Adding Form               |    H     |      3hrs      |    3.5hrs     |    0hrs     |
-| Adding rank page          |    M     |      3hrs      |    3.5hrs     |    0hrs     |
-| advance css               |    M     |      3hrs      |    3.5hrs     |    0hrs     |
-| Adding feedback section   |    M     |      3hrs      |    3.5hrs     |    0hrs     |
-| Working with API          |    H     |      3hrs      |    2.5hrs     |    0hrs     |
-| compare and constrast     |    L     |      2hrs      |    3.5hrs     |    0hrs     |
-| Total                     |    H     |      0hrs      |     0hrs      |    0hrs     |
+| creating frame            |    H     |      3hrs      |    3.5hrs     |    4hrs     |
+| Adding API vacation areas |    H     |      3hrs      |    3.5hrs     |    4hrs     |
+| Adding airtable api       |    H     |      3hrs      |    3.5hrs     |    3hrs     |
+| basic css                 |    H     |      3hrs      |    3.5hrs     |    4hrs     |
+| Adding Form               |    H     |      3hrs      |    3.5hrs     |    3hrs     |
+| Adding rank page          |    M     |      3hrs      |    3.5hrs     |    4hrs     |
+| advance css               |    M     |      3hrs      |    3.5hrs     |    3hrs     |
+| Adding feedback section   |    M     |      3hrs      |    3.5hrs     |    1hrs     |
+| Working with API          |    H     |      3hrs      |    2.5hrs     |    3hrs     |
+| compare and constrast     |    L     |      2hrs      |    3.5hrs     |    1hrs     |
+| Total                     |    H     |      29hrs      |     34hrs      |    30hrs     |
 
 ## SWOT Analysis
 
 ### Strengths:
-
+Once i knew what i wanted to do I was able to quickly figure it out how i wanted the project to look and so I didn't have to be concern about how to start it.
 ### Weaknesses:
+Although i knew right away what I wanted to do with my project. I'am somewhat limited to the amount of skill that I have to make it look good. there is more that i wanted to try doing but I don't have the sufficient skill to make it that way.
 
 ### Opportunities:
+I was given the opportunity to try out what i could do and that felt good. I was able to get things moving with not too much problem and understood just how everything would come together at the end.
 
-### Threats:
+### Threats: I feel there is a limitation to what I'm able to do at the moment and when I get stuck somewhere, it's not easy for me to get out of it. Hopefully I can improve my level of skill and also give a better product at the end.  
