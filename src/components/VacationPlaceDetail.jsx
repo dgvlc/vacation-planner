@@ -16,6 +16,7 @@ export default function VacationPlaceDetail() {
         headers,
       })
       setVacation(respose.data)
+      console.log(respose)
     }
     fetchVacation()
   }, [id])

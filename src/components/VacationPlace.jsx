@@ -10,10 +10,10 @@ export default function VacationPlace() {
   
   useEffect(() => {
     const fetchVacations = async () => {
-      const respose = await axios.get(BASE_URL, {
+      const response = await axios.get(BASE_URL, {
         headers,
       })
-      setVacations(respose.data.records)
+      setVacations(response.data.records)
     }
     fetchVacations()
   }, [])
